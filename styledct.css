@@ -1,0 +1,211 @@
+ body{
+	background-image: url(https://i.pinimg.com/originals/02/e1/30/02e130363b36fe6c08ab9a94c213c4be.jpg);
+	background-repeat:  no repeat;
+	background position: center;
+	background-attachment: fixed;
+}
+
+*{
+	font-family:'Saira Condensed';
+}
+
+#summary{
+	font-size:550%; 
+	color: orange; 
+} 
+
+#darkblue{
+	background-color: darkblue;
+}
+
+.title{
+	color: orange; 
+	font-size:400%;
+	text-align: center;
+	border-style: ridge;
+	border-width: 4px;
+	border-color: orange;
+	border-radius: 15px;
+	margin-right: 150px;
+    margin-left: 150px;
+    padding: 10px;
+}
+
+.introduction{
+	color: whitesmoke;
+	margin-right: 100px;
+    margin-left: 100px;
+}
+
+.name{
+	color: orange;
+	font-size: 300%;
+}
+
+img{
+	width:469px;
+	height:278px;
+}
+
+.img1{
+	margin-right:200px;
+	border-radius: 15px;
+	border: 2px solid whitesmoke;
+}
+
+.img3{
+	margin-left: 240px;
+	border-radius: 15px;
+	border: 2px solid whitesmoke;
+}
+
+.img2{
+	width:400px;
+	height: 265px;
+	border-width: 5px;
+	border-style: dashed;
+	border-color: whitesmoke;
+	border-radius: 20px;
+}
+
+.iframe{
+	width: 469px;
+	height: 278px;
+	border-width: 2px;
+	border-style: dashed;
+	border-color: whitesmoke;
+	border-radius: 20px;
+	margin-left: 240px;
+}
+
+.iframe1{
+	width: 469px;
+	height: 278px;
+	border-width: 2px;
+	border-style: dashed;
+	border-color: whitesmoke;
+	border-radius: 20px;
+	margin-right:200px;
+}
+
+.iframe2{
+	border-width: 5px;
+	border-style: dashed;
+	border-color: whitesmoke;
+	border-radius: 20px;
+}
+
+#text1{
+	margin-left: 350px;
+	color: whitesmoke;
+	font-size: 150%;
+}
+
+#text2{
+	margin-left: 360px;
+	color: whitesmoke;
+	font-size: 150%;
+}
+
+#nav1{
+	text-decoration: none;
+	margin-left: 25px;
+	color: darkblue;
+}
+
+#nav2{
+	text-decoration: none;
+	margin-left: 25px;
+	color: darkblue;
+}
+
+#nav3{
+	text-decoration: none;
+	margin-left: 25px;
+	color: darkblue;
+}
+
+#nav4{
+	text-decoration: none;
+	margin-left: 25px;
+	color: darkblue;
+}
+
+.nav{
+	color: darkblue;
+}
+
+#nav1:hover{ 
+	background-color: darkslateblue;
+	color: whitesmoke;
+	border-color: darkslateblue;
+}
+
+#nav2:hover{ 
+	background-color: darkslateblue;
+	color: whitesmoke;
+	border-color: darkslateblue;
+}
+
+#nav3:hover{ 
+	background-color: darkslateblue;
+	color: whitesmoke;
+	border-color: darkslateblue;
+}
+
+#nav4:hover{ 
+	background-color: darkslateblue;
+	color: whitesmoke;
+	border-color: darkslateblue;
+}
+
+.darkgrey{
+	background-color: darkgray;
+}
+
+h2{
+	color: tomato;
+}
+
+table,th,td{
+	color: whitesmoke;
+	font-size: 170%;
+	text-align: center;
+	border: 3px solid whitesmoke;
+	border-collapse: collapse;
+}
+
+form{
+	color: whitesmoke;
+	font-size:150%;
+}
+
+ul{
+	font-size: 250%;
+	background-color: grey; 
+	color: orange;
+	border: 15px solid grey;
+	border-radius: 20px;
+	padding: 5px;
+	margin-right: 120px;
+    margin-left: 120px;
+    postion: fixed;
+}
+
+.text8{
+	color: whitesmoke;
+	font-size: 150%;
+	text-align: center;
+}
+
+.imgg{
+	width: 267px;
+	height: 373px;
+}
+
+.colum{
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+
