@@ -1,54 +1,100 @@
-<<<<<<< Updated upstream
-<!DOCTYPE html><html>
-<head>
-	<meta charset="utf\-8">
-	<meta name="viewport" content="width=device\-width, initial\-scale=1">
-	<title></title>
-	<script src="script1.js"></script>
-</head>
-<body>
-  <p id='date'></p>
-  <button onclick="displayDate()">Click to see date</button>
-  <img id="img1" onmouseover="newImage()" src="https://ichef.bbci.co.uk/news/999/cpsprodpb/15951/production/_117310488_16.jpg" width="500" height="375">
-  <p id='content' onclick="changeContent()">Click to change content</p>
-  <p id='key' onclick="alertKey()">This is a key</p>
-  <p id='change'>Text</p>
-  <button onclick="changeText()">Click to change text</button>
-  <p id="cal"></p>
-  <button onclick='temp()'>Click to see f to c</button><br>
-  <p id='sum1'></p>
-  <button onclick="sum()">Calculation</button>
-  <p id='sum2'></p>
-  <button onclick="sum2()">Welcome to My Page</button>
-</body>
-=======
-<!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="wdith=device-width,initial-scale=1">
-	<title></title>
-</head>
-<body>
-	<h1 id="one">AQUAFINA</h1>
-	<p id="two"></p>
-	<h1 id="three">Dasani</h1>
-	<button onclick="alert(Date());">Click to see Date</button>
-	<button onclick="document.getElementById('one').style.fontSize = '300px'">Click to Change Size</button>
-	<button onclick="document.getElementById('three').style.opacity = '0%'">Click to disappear</button>
-	<button onclick="document.getElementById('one').innerHTML = 'Perrier'">Click to change word</button>
-	<button onclick='document.write(10+10)'>Click to the result of 10+10</button>
-	<img id='img' src="https://d3ui957tjb5bqd.cloudfront.net/uploads/2016/04/aquafina-01.jpg" width="500px" height="500px">
-	<button onclick="document.getElementById('img').src='https://i5.walmartimages.ca/images/Large/178/157/6000198178157.jpg'"> Click to see next</button>
-	<img id='imgg' src="https://m.media-amazon.com/images/I/81SLJB+cfUL._AC_SL1500_.jpg" width="750px" height="600px">
-	<button onclick="document.getElementById('imgg').height='300'"> Click to be shorter</button>
+	<title>Mabel</title>
+	<meta charset="utf\-8">
+	<meta name="viewport" content="width=device\-width, initial\-scale=1">
+	<script>
+			function gdr(){
+    var gdr = prompt('plz enter first gender(M OR F)');
+    var day = new Date().getHours();
+    if(gdr == "M" && 6< day <12 ){
+        alert('Hi Sir! Good Morning!');
+    }
+    else if(gdr == "M" && 12< day <18 ){
+        alert('Hi Sir! Good Afternoon!');
+    }
+    else if(gdr == "M" && day>18 ){
+        alert('Hi Sir! Good Night!');
+    }
+    else if(gdr == "M" && day<6 ){
+        alert('Hi Miss! Good Night!');
+    }
+    else{
+        if(gdr == "F" && 6< day <12 ){
+        alert('Hi Miss! Good Morning!');
+    }
+    else if(gdr == "F" && 12< day <18 ){
+        alert('Hi Miss! Good Afternoon!');
+    }
+    else if(gdr == "F" && day>18 ){
+        alert('Hi Miss! Good Night!');
+    }
+    else if(gdr == "F" && day<6 ){
+        alert('Hi Miss! Good Night!');
+    }
+    else{
+        alert('Welcome!');
+    }}
+    
+}
+gdr()
 
-</body>
+var day = new Date().getDay();
+switch(day){
+    case 1:
+        alert('Happy Monday!');
+        break;
+    case 2:
+        alert('Happy Tuesday');
+        break;
+    case 3:
+        alert('Happy Wednesday!');
+        break;
+    case 4:
+        alert('Happy Thursday!');
+        break;
+    case 5:
+        alert('Happy Friday!');
+        break;
+}
 
+function game() {
+    function getRandom(min, max){ 
+        return Math.floor(Math.random() * (max + min + 1)) + min;
+    }
+    var fir = 1, fin = 10;
+    var countStart = 1;
+    var a = getRandom(fir, fin);
+    while (true) {
+    var num = prompt('Guess a integer from' + fir + ' to ' + fin);
+    if (num > a) {
+        alert('Sorry! Your guess should be less than' + num);
+    } 
+    else if (num < a) {
+        alert('Sorry! Your guess should be greater than' + num);
+    } 
+    else {
+        alert('The integer is' + num + 'You are correct!');
+    break;
+    } 
+    }
+}
+game()
 
+function psww(){
+   var psw=prompt('enter your password, it should have less than 10 characters, no ? ! $ # and your first character should not be *')
+   if(psw.length<=10 && psw.indexOf('!') == -1 && psw.length>0 && psw.indexOf('*') != 0 && psw.indexOf('?') == -1 && psw.indexOf('#') == -1 && psw.indexOf('$') == -1){
+    alert('That is a good password');
+   }
+     else{
+         alert('please enter the correct password');
+     }
+}
 
-
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+		</script>
+	</head>
+	<body >
+		<h1>Hello</h1>
+	<button onclick="psww()">password</button>
+	</body>
+</html>
