@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Tim's style.css">
+	<title>contact us</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Tim Wu">
+    <script src="https://kit.fontawesome.com/63d0a387ea.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="mail.png" type="image/x-icon"/>
+</head>
+<body id="contactPage" class="contactPage">
+<div class="nav">
+    <div></div>
+    <ul>
+        <li><img class="logo" src="logo1.png" alt="Hogwarts logo"></li>
+        <li><a href="home.html"><span>Home</span></a></li>
+        <li><a href="hogsmeade.html"><span>Hogsmeade</span></a></li>
+        <li><a id="arr-li" onclick="arrowFlip();"><span id="houses">Houses</span><img id="arrow1" class="arrow-down" src="arrow-down.svg" alt="arrow-down"></a></li>
+        <li><a href="Contact us page.html"><span>Contact us</span></a></li>
+    </ul>
+</div>
+<div id="preview" class="pre">
+    <div id="preview_info_left">
+        <p id="pre-title">Houses</p>
+        <p id="houses-preview">Throughout the school year, the houses compete for the House Cup, gaining and losing points based on actions such as performance in class and rule violations.</p>
+    </div>
+    <div id="preview_info_right">
+        <div class="housesIntro">
+            <a href="Slytherin.html"><img class="houseLogo" src="Slytherin.png" alt="Slytherin.png"></a>
+            <a href="Slytherin.html" class="subtitle-link">Slytherin</a>
+            <a href="Slytherin.html" class="p-link"><p>Slytherin values ambition, cunning, leadership, and resourcefulness.</p></a>
+        </div>
+        <div class="housesIntro">
+            <a href="Gryffindor.html"><img class="houseLogo" src="Gryffindor.png" alt="Gryffindor.png"></a>
+            <a href="Gryffindor.html" class="subtitle-link">Gryffindor</a>
+            <a href="Gryffindor.html" class="p-link"><p>Gryffindor values courage, bravery, nerve, and chivalry. Gryffindor's mascot is the lion, and its colours are scarlet red and gold.</p></a>
+        </div>
+        <div class="housesIntro">
+            <a href="Hufflepuff.html"><img class="houseLogo" src="Hufflepuff.png" alt="Hufflepuff.png"></a>
+            <a href="Hufflepuff.html" class="subtitle-link">Hufflepuff</a>
+            <a href="Hufflepuff.html" class="p-link"><p>Hufflepuff values hard work, patience, justice, and loyalty. The house mascot is the badger, and canary yellow and black are its colours.</p></a>
+        </div>
+        <div class="housesIntro">
+            <a href="Ravenclaw.html"><img class="houseLogo" src="Ravenclaw.png" alt="Ravenclaw.png"></a>
+            <a href="Ravenclaw.html" class="subtitle-link">Ravenclaw</a>
+            <a href="Ravenclaw.html" class="p-link"><p>Ravenclaw values intelligence, learning, wisdom and wit.[HP5][HP7] The house mascot is an eagle and the house colours are blue and bronze.</p></a>
+        </div>        
+    </div>
+</div>
+    <div id="contact_info">
+	<font size="16" face="Roboto"><b>Contact Us</b></font><br><br><font size="4"face="Inter">Need to get in touch with us? Either fill out the form with your inquiry or find the department email you'd like to contact below.</font>
+</div>
+<div id="div_contact_form">
+	<font size="4" face="Inter">
+	<table>
+    <tr>
+        <td><label name = "first_name">First name*</label></td>
+        <td><label name = "last_name">Last name</label></td>
+    </tr><br><br>
+    <tr>
+        <td><input id="fName-input" class="form_input" type="text" name="first_name"></td>
+        <td><input id="lName-input" class="form_input" type="text" name="last_name"></td>
+    </tr>
+    </table><br>
+    <label name = "E-mail">Email*</label><br>
+    <input id="email-input" class="form_input" type="text" name="E-mail"><br><br>
+    <label name = "question">What can we help you with?*</label><br>
+    <textarea cols="8" rows="20" class="textarea-ques" id="textarea-ques"></textarea><br><br>
+    <p id="alert-null-str"></p><br>
+    <center><input id="submit_button" class="submit_button" type = "submit" value = "submit"></center><br><br>
+    </font>
+</div>
+    <img id="ob1" src="ob1.png" alt="Golden Snitch">
+    <div id="store_net"><img id="net" class="net" src="net.png" alt="net"></div>
+<div class="footer">
+        <div class="social-icons-row">
+                    <a href="https://www.facebook.com/Hogwarts/">
+                        <div class="icon-container">
+                            <i class="fa-brands fa-facebook fa-beat-fade"></i>  
+                        </div></a>
+                    <a href="https://www.instagram.com/Hogwarts/">
+                        <div class="icon-container">
+                            <i class="fa-brands fa-instagram fa-beat-fade"></i>   
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/Hogwarts/">
+                        <div class="icon-container">
+                            <i class="fa-brands fa-linkedin fa-beat-fade"></i>     
+                        </div>
+                    </a>
+                    <a href="https://twitter.com/Hogwarts">
+                        <div class="icon-container">
+                            <i class="fa-brands fa-square-twitter fa-beat-fade"></i>
+                        </div>
+                    </a>
+                    <a href="https://www.youtube.com/channel/abcdefghigklmn">
+                        <div class="icon-container">
+                            <i class="fa-brands fa-youtube fa-beat-fade"></i>
+                        </div>
+                    </a>
+                </div>
+</div>
+    <script src="Tim's script.js"></script>
+</body>
+</html>

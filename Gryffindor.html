@@ -1,0 +1,183 @@
+<!-- 
+1. All JS statements learned
+2. Social Media Share Button
+3. Navigation bar
+4. Form
+5. Back to Top
+6. Web game
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="Tim's style.css" rel="stylesheet" type="text/css">
+	<link rel="icon" type="image/png" href="https://th.bing.com/th/id/OIP.h7_XD2J-cG6Nd0XkxP-lzwHaHa?w=203&h=203&c=7&r=0&o=5&dpr=2&pid=1.7">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<script src="https://kit.fontawesome.com/63d0a387ea.js" crossorigin="anonymous"></script>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Gryffindor</title>
+
+	<!-- Title Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+	<!-- Text Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Toto&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/63d0a387ea.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body class="l_Gbg">
+	<div class="nav">
+    <div></div>
+    <ul>
+        <li><img class="logo" src="logo1.png" alt="Hogwarts logo"></li>
+        <li><a href="home.html"><span>Home</span></a></li>
+        <li><a href="hogsmeade.html"><span>Hogsmeade</span></a></li>
+        <li><a id="arr-li" onclick="arrowFlip();"><span id="houses">Houses</span><img id="arrow1" class="arrow-down" src="arrow-down.svg" alt="arrow-down"></a></li>
+        <li><a href="Contact us page.html"><span>Contact us</span></a></li>
+    </ul>
+	</div>
+
+	<div id="preview" class="pre">
+    <div id="preview_info_left">
+        <p id="pre-title">Houses</p>
+        <p id="houses-preview">Throughout the school year, the houses compete for the House Cup, gaining and losing points based on actions such as performance in class and rule violations.</p>
+    </div>
+    <div id="preview_info_right">
+        <div class="housesIntro">
+            <a href="Slytherin.html"><img class="houseLogo" src="Slytherin.png" alt="Slytherin.png"></a>
+            <a href="Slytherin.html" class="subtitle-link">Slytherin</a>
+            <a href="Slytherin.html" class="p-link"><p>Slytherin values ambition, cunning, leadership, and resourcefulness.</p></a>
+        </div>
+        <div class="housesIntro">
+            <a href="Gryffindor.html"><img class="houseLogo" src="Gryffindor.png" alt="Gryffindor.png"></a>
+            <a href="Gryffindor.html" class="subtitle-link">Gryffindor</a>
+            <a href="Gryffindor.html" class="p-link"><p>Gryffindor values courage, bravery, nerve, and chivalry. Gryffindor's mascot is the lion, and its colours are scarlet red and gold.</p></a>
+        </div>
+        <div class="housesIntro">
+            <a href="Hufflepuff.html"><img class="houseLogo" src="Hufflepuff.png" alt="Hufflepuff.png"></a>
+            <a href="Hufflepuff.html" class="subtitle-link">Hufflepuff</a>
+            <a href="Hufflepuff.html" class="p-link"><p>Hufflepuff values hard work, patience, justice, and loyalty. The house mascot is the badger, and canary yellow and black are its colours.</p></a>
+        </div>
+        <div class="housesIntro">
+            <a href="Ravenclaw.html"><img class="houseLogo" src="Ravenclaw.png" alt="Ravenclaw.png"></a>
+            <a href="Ravenclaw.html" class="subtitle-link">Ravenclaw</a>
+            <a href="Ravenclaw.html" class="p-link"><p>Ravenclaw values intelligence, learning, wisdom and wit.[HP5][HP7] The house mascot is an eagle and the house colours are blue and bronze.</p></a>
+        </div>        
+    </div>
+	</div>
+
+
+	<button onclick="toTop()" id="top" title="Go to top">Top</button>
+
+	<h1>Gryffindor</h1>
+
+	<div class="l_intro G">
+		<img src="https://1000logos.net/wp-content/uploads/2021/11/Gryffindor-Logo-768x432.png">
+		<h2>Introduction</h2>
+		<p>Gryffindor is one of the four Houses of Hogwarts School of Witchcraft and Wizardry, founded by Godric Gryffindor. The particular characteristics of students Sorted into Gryffindor are<span>courage, chivalry, and determination.</span>The emblematic animal is a lion, and its colours are red and gold. Sir Nicholas de Mimsy-Porpington, also known as "Nearly Headless Nick" is the house ghost.</p>
+	</div>
+
+	<div class="l_founder">
+		<img src="https://th.bing.com/th/id/OIP.5Mkd1iBJJEmzdAsZutK8BwHaLr?pid=ImgDet&rs=1">
+		<h2>Founder: <span>Godric Gryffindor</span></h2>
+		<p>Godric Gryffindor was a wizard and one of the four founders of Hogwarts School of Witchcraft and Wizardry. He was great friends with Salazar Slytherin but opposed him when he later thought that they should not accept Muggle-born students at Hogwarts. It is unknown when he died. Gryffindor's birthplace became known as Godric's Hollow, in his honour. Godric Gryffindor's portrait still remains at Hogwarts. Godric Gryffindor valued courage, determination, chivalry, and strength of heart, and was described as one of the four most brilliant witches and wizards of his time. Said to be one of "the four most brilliant witches and wizards of the time",[3] Godric Gryffindor founded Hogwarts School of Witchcraft and Wizardry in his adulthood, with friends Salazar Slytherin, Helga Hufflepuff, and Rowena Ravenclaw, though he later severed ties with Slytherin. He even appeared to have carefully selected members of his own House.</p>
+	</div>
+
+	
+
+    <section id="sorting">
+        <h2 id="mar">Are You a Gryffindor?</h2>
+        Email Address: 
+        <input type="email" name="email">
+        <button onclick="sort()" id="sortBtn">Sorting Quiz</button>
+    </section>
+	
+
+
+	<div class="review">
+	    <h2>Quotes</h2>
+	    <div class="img-container">
+	    	<img src="https://i.insider.com/5637b27abd86ef195c8bb63d?width=1300&format=jpeg&auto=webp" id="person-img">
+	    </div>
+
+	    <div>
+	    	<h4 id="name">Rubeus Hagrid</h4>
+	    	<p id="house">Gryffindor</p>
+            <p id="quote">No good sittin’ worryin’ abou’ it. What’s comin’ will come, an’ we’ll meet it when it does.</p>
+        </div>
+
+        <!-- prev next buttons-->
+        <div class="button-container">
+        	<button class="prev-btn">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="next-btn">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </div>
+
+
+	<div>
+		<h2>Alumni</h2>
+		<div class="l_alumni_col">
+			<h3>Albus Dumbledore</h3>
+			<img src="https://static.wikia.nocookie.net/harrypotter/images/4/40/Albus_Dumbledore_%28HBP_promo%29_3.jpg/revision/latest/scale-to-width-down/700?cb=20150822232849">
+			<p>Professor Albus Percival Wulfric Brian Dumbledore, O.M., Grand Sorc., D. Wiz., X., S. of Mag.Q.was an English half-blood wizard. He was the Defence Against the Dark Arts Professor, later the Transfiguration Professor, and later the Headmaster of Hogwarts School of Witchcraft and Wizardry.</p>
+		</div>
+		<div class="l_alumni_col">
+			<h3>Harry Potter</h3>
+			<img src="https://upload.wikimedia.org/wikipedia/en/d/d7/Harry_Potter_character_poster.jpg">
+			<p>Harry James Potter was the only child and son of James and Lily Potter, Harry's birth was overshadowed by a prophecy, naming either himself or Neville Longbottom as the one with the power to vanquish Lord Voldemort, the most powerful and feared Dark wizard in the world.</p>
+		</div>
+		<div class="l_alumni_col">
+			<h3>Ronald Weasley</h3>
+			<img src="https://static.wikia.nocookie.net/harrypotterfanon/images/5/56/Ron_Weasley_%28Scopatore%29.jpg/revision/latest/scale-to-width-down/700?cb=20160120050600">
+			<p>Ronald Bilius Weasley was the sixth son of Arthur and Molly Weasley. He was the younger brother of Bill, Charlie, Percy, Fred, George, and the elder brother of Ginny. Ron and his brothers and sister lived in the Burrow.</p>
+		</div>
+		<div class="l_alumni_col">
+			<h3>Hermione Granger</h3>
+			<img src="https://th.bing.com/th/id/R.6b0535eb53487f2bc4127f7a80823f61?rik=DWatTyaL7O4cpw&riu=http%3a%2f%2fimg1.wikia.nocookie.net%2f__cb20120729103114%2fwarnerbros%2fes%2fimages%2f3%2f3e%2fHermione.jpg&ehk=FEW7DLGSGJ7PJFEIzVgRn9guE3uT3Wsz5CK%2b39FQF5M%3d&risl=&pid=ImgRaw&r=0">
+			<p>Hermione Jean Granger began attending Hogwarts in 1991 and was Sorted into Gryffindor House. She possessed a brilliant academic mind and proved to be a gifted student in almost every subject that she studied, to the point where she was nearly made a Ravenclaw by the Sorting Hat.</p>
+		</div>
+	</div>
+
+
+
+	<div class="footer">
+        <div class="social-icons-row">
+            <a href="https://www.facebook.com/Hogwarts/">
+                <div class="icon-container">
+                    <i class="fa-brands fa-facebook fa-beat-fade"></i>  
+                </div></a>
+            <a href="https://www.instagram.com/Hogwarts/">
+                <div class="icon-container">
+                    <i class="fa-brands fa-instagram fa-beat-fade"></i>   
+                </div>
+            </a>
+            <a href="https://www.linkedin.com/Hogwarts/">
+                <div class="icon-container">
+                    <i class="fa-brands fa-linkedin fa-beat-fade"></i>     
+                </div>
+            </a>
+            <a href="https://twitter.com/Hogwarts">
+                <div class="icon-container">
+                    <i class="fa-brands fa-square-twitter fa-beat-fade"></i>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/channel/abcdefghigklmn">
+                <div class="icon-container">
+                    <i class="fa-brands fa-youtube fa-beat-fade"></i>
+                </div>
+            </a>
+        </div>
+	</div>
+
+
+   
+    <script src="Tim's script.js"></script>
+
+</body>
+</html>
